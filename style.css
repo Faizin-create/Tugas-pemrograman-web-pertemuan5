@@ -5,11 +5,11 @@ body {
     margin: 0;
     font-family: Poppins, sans-serif;
 }
-/* Soal 3e: menu Flexbox */
+/* Soal 3e: menu navigasi Flexbox */
 nav {
     display: flex;
-    justify-content: flex-start; /* mendatar di kiri */
-    gap: 20px; /* jarak 20px */
+    justify-content: flex-start; /* mendatar di sisi kiri halaman*/
+    gap: 20px; /* jarak antar tautan 20px */
     padding: 16px;
     background: #abf43f;
 }
