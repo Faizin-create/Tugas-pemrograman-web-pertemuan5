@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+/* Soal 3e: menu Flexbox */
+nav {
+    display: flex;
+    justify-content: flex-start; /* mendatar di kiri */
+    gap: 20px; /* jarak 20px */
+    padding: 16px;
+    background: #abf43f;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+}
+main {
+    padding: 16px;
+}
+/* Soal 3d: galeri grid 3 kolom sama lebar */
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px; /* jarak 12px */
+}
+/* Gambar tidak boleh melebihi lebar kolomnya */
+.galeri img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
